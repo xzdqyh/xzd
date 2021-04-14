@@ -1,0 +1,8 @@
+package day408.AbstractFactory;
+
+public class Horse implements Animal {
+    @Override
+    public void getAnimal() {
+        System.out.println("马：🐎");
+    }
+}
