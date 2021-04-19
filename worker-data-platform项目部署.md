@@ -12,17 +12,11 @@
 ### 二、部署在服务器
 
 步骤：
-
+在阿里云开放对应端口,不然无法访问到信息;
 1. 将target文件夹中的lib文件打包；
-
 2. 通过Xftp将jar包传输到Xshell中；
-
 3. 下载unzip，yum install unzip;
-
 4. 解压压缩文件，unzip 文件名;
-
 5. 在此目录运行 java -jar jar名；
-
 6. 部署完成，可通过访问 服务器地址：端口号\ 进行访问；
-
    需要在linux上安装jdk和mysql;
