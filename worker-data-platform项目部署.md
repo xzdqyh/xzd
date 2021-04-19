@@ -1,7 +1,7 @@
 ### 一、部署在locklhost
 
 步骤：
-
+更改application-dev.yml中数据库连接信息；
 1. 在IDEA中运行项目，项目能正常跑起来才有部署的必要；
 2. 点击项目右侧 Maven->选择项目->clean（清除）->package（将项目打成jar包）；
 3. 打包过程结束后，控制台提示 [INFO] BUILD SUCCESS  则打包成功；
